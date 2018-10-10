@@ -15,13 +15,13 @@ def greeting(x,y)
 end
 
 def return_a_value
-
+ 'Nice'
 end
 
 def last_evaluated_value
-
+  'Expert'
 end
 
-def pizza_party
-
+def pizza_party(param = 'cheese')
+  param
 end
